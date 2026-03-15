@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Demonstration for playlist-project">
+
+  <style>
+    :root, html, body {
+      margin: var(--ddd-spacing-0);
+      padding: var(--ddd-spacing-0);
+    }
+    #demo {
+      margin: var(--ddd-spacing-2);
+    }
+    playlist-project {
+      margin: var(--ddd-spacing-2);
+      border: var(--ddd-border-md);
+      border-radius: var(--ddd-radius-lg);
+    }
+    playlist-project:hover {
+      box-shadow: var(--ddd-boxShadow-sm);
+    }
+  </style>
+  <title>AFC East Teams</title>
+</head>
+
+<body>
+  <div id="demo">
+    <playlist-project title="AFC East Teams">
+
+      <playlist-card label="AFC East" title="Buffalo Bills" color="#00338D">
+        <p>The Buffalo Bills are based in Orchard Park, New York, just outside of Buffalo. Founded in 1960 as a charter member of the American Football League, the Bills are one of the most beloved franchises in the NFL. They play their home games at Highmark Stadium. The Bills are famously known for appearing in four consecutive Super Bowls from 1991 to 1994, a feat no other team has accomplished, though they lost all four. In recent years the Bills have re-emerged as one of the top teams in the AFC, led by quarterback Josh Allen, who has become one of the most exciting players in the league. The Bills fanbase, known as Bills Mafia, is considered one of the most passionate and rowdy in all of professional sports.</p>
+      </playlist-card>
+
+      <playlist-card label="AFC East" title="Miami Dolphins" color="#008E97">
+        <p>The Miami Dolphins are based in Miami Gardens, Florida, and play their home games at Hard Rock Stadium. Founded in 1966, the Dolphins are the oldest professional sports franchise in Florida. The Dolphins are the only team in NFL history to finish a season with a perfect record, going 17-0 including a Super Bowl victory in the 1972 season. They have won two Super Bowl championships, both coming back to back in 1972 and 1973 under legendary coach Don Shula. Don Shula remains the winningest coach in NFL history. The Dolphins have a passionate fanbase throughout South Florida and are known for their iconic aqua and orange uniforms.</p>
+      </playlist-card>
+
+      <playlist-card label="AFC East" title="New England Patriots" color="#002244">
+        <p>The New England Patriots are based in Foxborough, Massachusetts, and play their home games at Gillette Stadium. Founded in 1960 as the Boston Patriots, the team relocated and rebranded to the New England Patriots in 1971. The Patriots are the most successful NFL franchise of the modern era, winning six Super Bowl championships between 2001 and 2019. Their dynasty was built around head coach Bill Belichick and quarterback Tom Brady, widely considered the greatest coach and player combination in NFL history. Brady left the team in 2020 and Belichick departed after the 2023 season. They are noew thriving behind Mike Vrabel and Drake Maye who just led the team to a superbowl apperance this past season.</p>
+      </playlist-card>
+
+      <playlist-card label="AFC East" title="New York Jets" color="#125740">
+        <p>The New York Jets are based in East Rutherford, New Jersey, and share MetLife Stadium with the New York Giants. Founded in 1960 as the Titans of New York, the team rebranded to the Jets in 1963. The Jets are best known for their Super Bowl III victory in January 1969, when quarterback Joe Namath famously guaranteed a victory over the heavily favored Baltimore Colts and delivered. That remains the only Super Bowl championship in Jets history. The Jets have long been known for their struggles and heartbreaking losses, making them one of the most talked about franchises in the NFL despite their lack of recent success.</p>
+      </playlist-card>
+
+    </playlist-project>
+  </div>
+  <script type="module" src="./playlist-project.js"></script>
+</body>
+
+</html>
